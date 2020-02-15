@@ -1,14 +1,27 @@
 <div class="top-page">
   <div class="list-margin"></div>
 	<div *ngFor="let item of items" class="item-list">
-    <div class="list-name">
-      {{ item.name }}
+    <img src="https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/7807/9784295007807.jpg?_ex=120x120" class="image">
+    <div class="title">
+      {{ item.title }}
+      <div class="price">
+        {{ item.price }}
+      </div>
     </div>
-    <div class="list-price">
-      {{ item.price }}
+    <div class="discription">
+      {{ item.discription }}
     </div>
-    <div class="list-link">
-      {{ item.link }}
+    <div class="publisher-name">
+      {{ item.publisherName }}
+      <div class="author">
+        {{ item.author }}
+      </div>
+    </div>
+    <div class="sale-date">
+      {{ item.saleDate }}
+      <div class="link-btn">
+        楽天市場へ
+      </div>
     </div>
   </div>
 </div>

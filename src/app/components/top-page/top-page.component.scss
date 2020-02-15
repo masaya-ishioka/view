@@ -7,14 +7,41 @@
 }
 .item-list {
   width: 90%;
-  background-color: #000;
+  background-color: rgba(0,0,0,.7);
   margin: 10px auto;
   color: #FFF;
-  opacity: 0.7;
-  border-radius: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.list-name {
-  display: inline-block;
-  width: 30%;
+.image {
+  border-radius: 5%;
+  margin: 15px;
+  width: 150px;
+}
+
+.title {
+  text-align: center;
+  width: 15%;
+
+}
+.price {
+
+}
+.discription {
+  width: 40%;
+
+}
+.publisher-name {
+
+}
+.author {
+
+}
+.sale-date {
+
+}
+.link-btn {
 }
